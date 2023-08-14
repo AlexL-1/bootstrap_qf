@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <link href='https://fonts.googleapis.com/css2?family=Lato:wght@400;600;800;900&display=swap' rel='stylesheet'> 
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+  
+    <style>
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('/Lato-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/Lato-Heavy.woff2') format('woff2'); 
+  font-display: swap;
+}
+
+:root{
+  --bs-blue: #076BD5;
+  --bs-primary: #076BD5;
+  --bs-link-hover-color:#076BD5;
+}
+
+a,a:visited {color:#555; }
+a:hover {color:var(--bs-blue)}
+
+.btn-primary:hover {
+  color: var(--bs-btn-bg);
+  background-image:linear-gradient(#eee,#fff,#ddd,#ddd);
+}
+.btn-primary {
+  background-image: linear-gradient(#1683E0,#0565D5);
+}
+a.nav-link {
+  color: #555;
+}
+a.nav-link:hover {
+  background-color: var(--bs-gray-200);
+}
+
+.btn-outline-secondary:hover{
+  background-color:#fff;
+}
+
+.QFheader, .QFheader:hover, .QFheader:focus{
+font-size:3.5rem;
+font-weight:900;
+text-shadow:2px 2px 2px #bbb;
+color:#666;
+text-decoration:none;
+line-height:3.6rem;
+font-style: italic;
+font-family: "Lato", sans-serif;
+}
+
+
+@media (max-width:1560px)
+{
+.btnIcon {width: 0; height:0; margin-bottom: -20px;}
+#mainNav li { font-size: smaller; }
+#mainNav2 li { font-size: smaller; }
+#mainNav3 li { font-size: smaller; }
+
+}
+
+
+    </style>
+  
+  </head>
+  <body class="pt-0">
+
+
+<nav class="navbar navbar-expand-xl justify-content-between sticky-top pt-0 bg-body-tertiary">
+  <div class="container-fluid text-center">
+    <a class="navbar-brand" href="/fr/">
+      <div class="QFheader">
+      <svg width="42" height="43" class="mb-2">
+      <use href="icons_symbols.svg#QFicon"/>
+      </svg>QuickField
+      </div>
+      <div class="fs-5 fst-italic" style="color:var(--bs-blue);">Une nouvelle approche de la modélisation des champs</div>
+    </a>
+
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   
+    <div class="collapse navbar-collapse justify-content-between show" id="navbarsExample05">
+      
+      <ul id="mainNav" class="nav nav-pills nav-fill text-uppercase fs-5 fw-semibold ">
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-light" href="/fr/feat.htm"><svg class="btnIcon" width="32" height="32" fill="black">
+            <use href="icons_symbols.svg#icon_product"/>
+            </svg><br>caractéristiques</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-light" href="/fr/appl.htm">
+            <svg class="btnIcon" width="32" height="32" fill="black">
+              <use href="icons_symbols.svg#icon_solutions"/>
+              </svg><br>applications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-light" href="/fr/free.htm">
+            <svg class="btnIcon" width="32" height="32" fill="black">
+              <use href="icons_symbols.svg#icon_downloads"/>
+              </svg><br>téléchargements gratuits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-light" href="/fr/contact.htm">
+            <svg class="btnIcon" width="32" height="32" fill="black">
+              <use href="icons_symbols.svg#icon_contacts"/>
+              </svg><br>contact</a>
+        </li>
+      </ul>
+      <div class="d-xl-flex justify-content-xl-end">
+        <div class="dropdown" style="width: fit-content; display:inline-block;vertical-align: top;">
+          <button class="btn border-secondary-subtle dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <svg width="24" height="24" >
+              <use href="icons_symbols.svg#globe" clip-path="url(#circle)"/>
+              </svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/"><svg width="24" height="24" ><use href="icons_symbols.svg#flag_en"/></svg>Global English</a></li>
+            <li><a class="dropdown-item" href="/de"><svg width="24" height="24" ><use href="icons_symbols.svg#flag_de"/></svg>Deutsch</a></li>
+            <li><a class="dropdown-item" href="/fr"><svg width="24" height="24" ><use href="icons_symbols.svg#flag_fr"/></svg>Francais</a></li>
+            <li><a class="dropdown-item" href="/es"><svg width="24" height="24" ><use href="icons_symbols.svg#flag_es"/></svg>Espanol</a></li>
+            <li><a class="dropdown-item" href="/it"><svg width="24" height="24" ><use href="icons_symbols.svg#flag_it"/></svg>Italiano</a></li>
+            <li><a class="dropdown-item" href="/dk"><svg width="24" height="24" ><use href="icons_symbols.svg#flag_dk"/></svg>Danmark</a></li>
+            <li><a class="dropdown-item" href="https://quickfield.cz"><svg width="24" height="24" ><use href="icons_symbols.svg#flag_cz"/></svg>Ceske</a></li>
+            <li><a class="dropdown-item" href="http://quickfield.cntech.com"><svg width="24" height="24" ><use href="icons_symbols.svg#flag_cn"/></svg>Chinese</a></li>
+            <li><a class="dropdown-item" href="https://quickfield.ru"><svg width="24" height="24" ><use href="icons_symbols.svg#flag_ru"/></svg>Pyccku&uuml;</a></li>
+          </ul>
+        </div><div class="border border-secondary-subtle px-2 rounded-end" style="width:max-content; display:inline-block;">    
+          <input type="search" class="border-0 bg-body-tertiary" style="height:36px; outline:none;" placeholder="Rechercher" aria-label="Rechercher"><button type="submit" class="btn btn-outline-light b-0" aria-label="Trouver!" style="height:36px; "><svg width="24" height="24" ><use href="icons_symbols.svg#icon_search"/></svg></button>
+        </div> 
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+  <div>  
+  <div id="myCarousel" class="carousel slide mb-3 mt-3" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/slide_application_.jpg" class="bd-placeholder-img"  width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" >
+        <div class="container">
+          <div class="carousel-caption text-start bg-opacity-50 bg-dark fst-italic lh-md fs-1 px-4">
+            <a class="text-light text-decoration-none" href="#">Analyse électromagnétique, thermique et des contraintes</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/banner66.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+        
+       <div class="container">
+        <div class="carousel-caption text-start bg-opacity-50 bg-primary fst-italic lh-md fs-1 px-4">
+            <a class="text-light text-decoration-none" href="#">QuickField 6.6</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide_support_.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+       <div class="container">
+        <div class="carousel-caption text-start bg-opacity-50 bg-dark fst-italic lh-md fs-1 px-4">
+            <a class="text-light text-decoration-none" href="#">Support technique pour tous les utilisateurs</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide_slogan_.jpg" class="bd-placeholder-img" width="100%" height="100%" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+        <div class="container">
+          <div class="carousel-caption text-start bg-opacity-50 bg-primary fst-italic lh-md fs-1 px-4">
+            <a class="text-light text-decoration-none" href="#">Une nouvelle approche de la modélisation des champs</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+  <div style="position:relative; text-align: right; bottom:100px; right:10px;z-index: 20; margin-bottom: -70px;">
+    <a href="free_soft.htm"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-23 -3 355 65" width="360">
+      <rect x="-20" width="340" height="60" fill="#eee" stroke="grey" stroke-width="2" rx="20"></rect>
+      <rect x="240" width="80" height="60" fill="white" stroke="grey" stroke-width="2"></rect>
+      <circle cx="280" cy="30" r="20" fill="white" stroke="#076BD5" stroke-width="2"></circle>
+      <polygon points="0,0 10,-10 5,-10 5,-22 -5,-22 -5,-10 -10,-10" fill="#076BD5" transform="translate(280,42)"></polygon>
+      <text text-anchor="middle" font-family="Arial" font-weight="bold">
+      <tspan x="120" y="32" fill="#076BD5" font-size="30">Téléchargement</tspan>
+      <tspan x="120" y="52" fill="#555" font-size="16">QuickField Student Edition</tspan>
+      </text>
+      </svg></a>
+  </div>
+ 
+</div>
+
+  <div class="container">
+    <div class="row px-2">
+      <div class="col pt-2" style="min-width:280px;">
+        <div class="btn-group w-100">
+          <button class="btn fw-bolder border border-2 rounded-3 p-0 px-1 bg-body-tertiary" type="button">
+            <svg width="32" height="32" fill="black">
+            <use href="icons_symbols.svg#icon_video"/>
+            </svg>
+          </button>
+          <button class="btn btn-primary fw-bolder border border-2 w-100 rounded-3 hover-white" type="button">Video</button>
+        </div>
+        <div class="border border-2 rounded-3 overflow-auto text-center bg-light" style="height: 360px;">
+            <a href="">More videos...</a>
+        </div>
+      </div>
+      <div class="col pt-2" style="min-width:280px;">
+        <div class="btn-group w-100">
+          <button class="btn fw-bolder border border-2 rounded-3 py-0 px-2" type="button">
+            <svg width="28" height="23" fill="black px-2">
+            <use href="icons_symbols.svg#icon_examples"/>
+            </svg>
+          </button>
+          <button class="btn btn-primary fw-bolder border border-2 w-100 rounded-3 hover-white" type="button">Examples</button>
+        </div>
+        <div class="border border-2 rounded-3 overflow-auto text-center bg-light" style="height: 360px;" >
+            <a href="">More examples...</a>
+        </div>
+      </div>
+      <div class="col pt-2" style="min-width:280px;">
+        <div class="btn-group w-100">
+          <button class="btn fw-bolder border border-2 rounded-3 p-0 px-1" type="button">
+            <svg width="32" height="32" fill="black">
+            <use href="icons_symbols.svg#icon_application"/>
+            </svg>
+          </button>
+          <button class="btn btn-primary fw-bolder border border-2 w-100 rounded-3 hover-white" type="button">Applications</button>
+        </div>
+        <div class="border border-2 rounded-3 overflow-auto text-center bg-light" style="height: 360px;" >
+          <p><a href="app_actu.htm" >Actionneurs</a></p>
+          <p><a href="app_pcb.htm" >Circuits imprimes</a></p>
+          <p><a href="app_cables.htm" >Cables</a></p>
+          <p><a href="app_cap.htm" >Capacites</a></p>
+          <p><a href="app_sens.htm" >Capteurs</a></p>
+          <p><a href="app_ihd.htm" >Chauffage par induction</a></p>
+          <p><a href="app_emc.htm" >Compatibilite electromagnetique</a></p>	
+          <p><a href="app_mech.htm" >Composants mecaniques</a></p>
+          <p><a href="app_speak.htm" >Hauts-parleurs</a></p>
+          <p><a href="app_tlines.htm" >Lignes de transmission</a></p>
+          <p><a href="app_elmach.htm" >Machines electriques</a></p>
+          <p><a href="app_therm.htm" >Modeles thermiques</a></p>
+          <p><a href="app_super.htm" >Supraconducteurs</a></p>
+          <p><a href="app_electron.htm" >Systeme electro-optique</a></p>
+          <p><a href="app_mag.htm" >Systemes magnetiques</a></p>
+          <p><a href="app_transf.htm" >Transformateurs</a></p>
+        </div>
+      </div>
+      <div class="col pt-2" style="min-width:280px;" >
+        <div class="btn-group w-100">
+          <button class="btn fw-bolder border border-2 rounded-3 p-0 px-1" type="button">
+            <svg width="32" height="32" fill="black">
+            <use href="icons_symbols.svg#icon_features"/>
+            </svg>
+          </button>
+          <button class="btn btn-primary fw-bolder border border-2 w-100 rounded-3 hover-white" type="button">Caracteristiques</button>
+        </div>
+        <div class="border border-2 rounded-3 overflow-auto text-center bg-light" style="height: 360px;">     
+          <p><a href="dcmag.htm" >Magnetostatique</a></p>
+          <p><a href="acmag.htm" >Magnetodynamique</a></p>
+          <p><a href="tem.htm" >Champ magnetique transitoire</a></p>
+          <p><a href="circuit.htm" >Circuits electriques</a></p>
+          <p><a href="estat.htm" >Electrostatique</a></p>
+          <p><a href="cflow.htm" >Conduction DC</a></p>
+          <p><a href="ac_cond.htm" >Conduction AC</a></p>
+          <p><a href="transient_electric.htm" >Champ electrique transitoire</a></p>
+          <p><a href="transfer.htm" >Transfert thermique</a></p>
+          <p><a href="stress.htm" >Contraintes mecaniques</a></p>
+          <p><a href="solver.htm" >Technique de resolution</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+<div class="container text-center pt-5">
+Pour plus d'exemples, demos et tutoriels vous pouvez visiter le <span style='white-space: nowrap;'><a href='/'>Global QuickField Support Site</a></span>
+<br>We are ready to answer any questions or provide you with Professional version purchase terms.
+<br><a href="/support_request.htm">Contact QuickField Support Team</a>.
+</div>
+
+
+
+
+  
+
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

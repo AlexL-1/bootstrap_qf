@@ -1,0 +1,382 @@
+<svg xmlns='http://www.w3.org/2000/svg'>
+
+<style>
+
+.flags 
+{
+width:15px;
+height:12px;
+display:inline-block;	
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+border:1px solid gray;
+}
+
+
+.icon_line /*svg */
+{
+stroke:#666;
+stroke-width:2;
+stroke-linecap:round;
+fill:none;
+}
+
+.btnIcon
+{
+background-repeat:no-repeat;
+background-size:contain;
+width:20px;
+height:20px;
+display:block;	
+background-position:center;
+margin:auto;
+margin-bottom:5px;
+}
+
+.icon
+{
+background-repeat:no-repeat;
+background-size:contain;
+width:34px;
+height:34px;
+display:block;	
+background-position:center;
+}
+
+.socialIcon
+{
+background-repeat:no-repeat;
+background-size:contain;
+width:24px;
+height:24px;
+display:inline-block;	
+background-position:center;
+}
+
+</style>
+
+<symbol id="QFicon" width="42" height="50" ><circle cx='13' cy='30' r='12' fill='#00f7f7'/>
+<g stroke-width='6' stroke='#ddd' fill='none' transform='translate(1,-1)'><line x1='28' y1='12' x2='28' y2='30'  />
+<path d='M 20 4 A 8 8, 0, 0, 1, 28 12'/>
+<line x1='12' y1='12' x2='12' y2='23'/>
+<path d='M 12 12 A 8 8, 0, 0, 1, 20 4'/>
+</g><g stroke-width='6' fill='none'><line x1='28' y1='12' x2='28' y2='30'  stroke='navy'/>
+<path d='M 20 4 A 8 8, 0, 0, 1, 28 12' stroke='navy'/>
+<line x1='12' y1='12' x2='12' y2='23' stroke='red'/>
+<path d='M 12 12 A 8 8, 0, 0, 1, 20 4' stroke='red'/>
+</g>
+<line x1='13' y1='33' x2='13' y2='19' stroke-width='12' stroke='red'/>
+<g stroke-width='0.5' stroke='black'><line x1='17' y1='20' x2='17' y2='35'/>
+<line x1='13' y1='19' x2='13' y2='35'/>
+<line x1='9' y1='20' x2='9' y2='35'/>
+<path d='M 17 35 A 10 10, 0, 0, 0, 20 40' fill='none'/>
+<path d='M 13 35 A 15 15, 0, 0, 0, 13 42' fill='none'/>
+<path d='M 9 35 A 10 10, 0, 0, 1, 5.5 40' fill='none'/>
+</g>
+<g stroke='#666' fill='none'><circle cx='13' cy='30' r='12' stroke-width='1.5'/>
+<line x1='23' y1='35' x2='41' y2='42' stroke-width='3'/>
+</g>
+</symbol>
+
+
+
+
+<symbol id="submenu_arrow" width='4' height='10' class='icon_line' >
+<polygon points='3,5 1,3 1,7 3,5' fill='#666'/>
+</symbol>
+
+<symbol id="carousel_btnPrev" viewBox='-10 0 10 40' width='20' height='80'>
+<polygon points='0,0 -10,20 0,40 z' fill='#076BD5' stroke='white' stroke-width='1' />
+</symbol>
+
+<symbol id="carousel_btnNext" viewBox='0 0 10 40' width='20' height='80'>
+<polygon points='0,0 10,20 0,40 z' fill='#076BD5' stroke='white' stroke-width='1' />
+</symbol>
+ 
+ 
+
+
+<symbol id="movie_icon" viewBox='0 0 18 24' width='18' height='18'>
+<linearGradient id='linear-gradient'><stop offset='0%' stop-color='white'/>
+<stop offset='100%' stop-color='#eeb'/>
+</linearGradient>
+<rect x='0' y='0' width='19' height='24' fill='black'/>
+<rect x='5' y='3' width='9' height='7' fill='url(#linear-gradient)'/>
+<rect x='5' y='14' width='9' height='7' fill='url(#linear-gradient)'/>
+<line x1='2' y1='1' x2='2' y2='24' stroke='white' stroke-width='2' stroke-dasharray='2 2'/>
+<line x1='17' y1='1' x2='17' y2='24' stroke='white' stroke-width='2' stroke-dasharray='2 2'/>
+</symbol>
+
+
+
+<symbol id="download_icon" viewBox='0 0 24 24' width='18' height='18'>
+<rect x='6' y='0' width='11' height='15' fill='green'/>
+<polygon points='0,15 24,15 12,24' fill='green'/>
+</symbol>
+
+
+<symbol id="book_icon" viewBox='0 -2 40 30' width='18' height='18'>
+<rect x='-11' y='15' height='24' width='20' style='stroke:grey; fill:Olive' transform='rotate(-30) skewX(20)'/>
+<rect x='0' y='0' height='25' width='4' style='stroke:grey; fill:Olive' transform='rotate(-50 18 5) skewY(-40)'/>
+<rect x='26' y='34' height='1.5' width='18' stroke-width='0.5' style='stroke:grey; fill:white' transform='rotate(-30) skewX(-30)'></rect>
+<rect x='26' y='35.5' height='1.5' width='18' stroke-width='0.5' style='stroke:grey; fill:white' transform='rotate(-30) skewX(-30)'></rect><rect x='26' y='37' height='1' width='18' stroke-width='0.5' style='stroke:grey; fill:white' transform='rotate(-30) skewX(-30)'></rect><rect x='-6' y='10' height='24' width='20' style='stroke:grey; fill:Olive' transform='rotate(-30) skewX(20)'></rect></symbol>
+
+<symbol id="youtube_icon" viewBox='0 2 24 17' height='19' width='25'>
+<path d='M2.093,9.075c0.125,-1.941 1.629,-3.509 3.562,-3.716c2.005,-0.202 4.136,-0.311 6.345,-0.311c2.209,0 4.34,0.109 6.345,0.312c1.933,0.206 3.437,1.774 3.562,3.715c0.061,0.956 0.093,1.933 0.093,2.925c0,0.992 -0.032,1.969 -0.093,2.925c-0.125,1.941 -1.629,3.509 -3.562,3.716c-2.005,0.202 -4.136,0.311 -6.345,0.311c-2.209,0 -4.34,-0.109 -6.345,-0.312c-1.933,-0.206 -3.437,-1.774 -3.562,-3.715c-0.061,-0.956 -0.093,-1.933 -0.093,-2.925c0,-0.992 0.032,-1.969 0.093,-2.925Z' fill='red' />
+<path d='M15.055,12l-4.909,2.995l0,-5.99l4.909,2.995Z' fill='white' />
+</symbol>
+
+
+
+<symbol id="cd_icon" viewBox='-13 -13 26 26' height='24' width='24'>
+<defs><filter id='f1'><feGaussianBlur in='SourceGraphic' stdDeviation='2' />
+</filter>
+<clipPath id='clip1'><circle id='outer' r='12' />
+</clipPath>
+<line clip-path='url(#clip1)' id='d1' x1='-12' x2='12' y1='-12' y2='12' stroke-width='2' stroke-opacity='0.5' stroke='#currentColor' filter='url(#f1)'/>
+</defs>
+<use href='#outer' stroke-width='0.75' stroke='grey' fill='#eee' />
+<use href='#d1' stroke='red' transform='rotate(-40)'/>
+<use href='#d1' stroke='cadetblue' transform='rotate(-10)' />
+<use href='#d1' stroke='yellow' transform='rotate(-20)'/>
+<use href='#d1' stroke='white' transform='rotate(70)'/>
+<use href='#d1' stroke='white' transform='rotate(90)'/>
+<circle r='3' stroke-width='0.5' stroke='grey' fill='white'/>
+</symbol>
+
+
+
+
+<symbol id="icon_application" viewBox='-20 -24 40 40' fill='#666' stroke='#666' stroke-width='1'>
+<polygon id='vent1' points='0,0 0,-20 2,-6 0,-5 -2,-6 0,-20'/>
+<circle r='2'/>
+<use href='#vent1' transform='rotate(120)'/>
+<use href='#vent1' transform='rotate(240)'/>
+</symbol>
+
+
+ 
+<symbol id="icon_contacts" stroke='#666' stroke-width='2' stroke-linecap='round' fill='#666'>
+<circle cx='10' cy='6' r='5'/>
+<polygon points='10,20 16,7 4,7 10,20' stroke-width='0'/>
+<circle cx='10' cy='6' r='4' fill='white'/>
+</symbol>
+
+
+
+<symbol id="icon_customers" fill='#666'>
+<polyline id='suit' points='-15,0 -15,-5 -3,-8 0,-8 0,0'/>
+<use href='#suit' transform='scale(-1,1)'/>
+<path d='m-2,0 l1,-4 a 1.5,1.5 0 1 1 2,0 l1,4' fill='white'/>
+<path d='m 0,-24 c 7,0 7,4 5,11 -1,4 -1,7 -5,7 -3,0 -4,-2 -5,-7 -1,-7 -2,-11 4,-11'/>
+<path id='ear1' d='m-5.5,-17.5 c -2,0 -2,3 1,5'/>
+<use  href='#ear1' transform='scale(-1,1)' />
+</symbol>
+
+<symbol id="icon_downloads" stroke='#666' stroke-width='2' stroke-linecap='round' fill='#666'>
+<line x1='1' y1='18' x2='19' y2='18'/>
+<line x1='1' y1='18' x2='1' y2='14'/>
+<line x1='19' y1='18' x2='19' y2='14'/>
+<polygon points='10,14 14,8 6,8 10,14'/>
+<rect x='8' y='0' width='4' height='10'/>
+</symbol>
+
+
+ 
+<symbol id="icon_examples"  viewBox='-3 -1 32 23' stroke='#666' stroke-width='2' stroke-linecap='round' fill='#eee' >
+<rect id='rct1' width='20' height='14'/>
+<use href='#rct1' x='6' y='7'/>
+</symbol>
+
+
+ 
+<symbol id="icon_facebook"  width='24' height='24'  viewBox='0 0 267 267'>
+<path fill='grey' d='M248.082,262.307c7.854,0,14.223-6.369,14.223-14.225V18.812c0-7.857-6.368-14.224-14.223-14.224H18.812c-7.857,0-14.224,6.367-14.224,14.224v229.27c0,7.855,6.366,14.225,14.224,14.225H248.082z'/>
+<path fill='white' d='M182.409,262.307v-99.803h33.499l5.016-38.895h-38.515V98.777c0-11.261,3.127-18.935,19.275-18.935 l20.596-0.009V45.045c-3.562-0.474-15.788-1.533-30.012-1.533c-29.695,0-50.025,18.126-50.025,51.413v28.684h-33.585v38.895h33.585v99.803H182.409z'/>
+</symbol>
+
+
+ 
+<symbol id="icon_features" viewBox='-17 -17 34 34'><g stroke='#666' stroke-width='2' stroke-linecap='round' fill='white'>
+<polyline points='-8,9 -8,0 8,0 8,9' fill='none'/>
+<line y2='-10'/>
+<circle id='r3' r='3'/>
+<use href='#r3' y='-10'/>
+<use href='#r3' x='-8' y='9'/>
+<use href='#r3' x='8' y='9'/>
+</g></symbol>
+
+
+ 
+<symbol id="icon_instagram"  width='24' height='24'  viewBox='0 0 512 512'><g fill='grey'>
+<path d='M96.1,23.2c-16.2,6.3-29.9,14.7-43.6,28.4C38.8,65.2,30.4,79,24.1,95.1c-6.1,15.6-10.2,33.5-11.4,59.7c-1.2,26.2-1.5,34.6-1.5,101.4s0.3,75.2,1.5,101.4c1.2,26.2,5.4,44.1,11.4,59.7c6.3,16.2,14.7,29.9,28.4,43.6c13.7,13.7,27.4,22.1,43.6,28.4c15.6,6.1,33.5,10.2,59.7,11.4c26.2,1.2,34.6,1.5,101.4,1.5c66.8,0,75.2-0.3,101.4-1.5c26.2-1.2,44.1-5.4,59.7-11.4c16.2-6.3,29.9-14.7,43.6-28.4c13.7-13.7,22.1-27.4,28.4-43.6c6.1-15.6,10.2-33.5,11.4-59.7c1.2-26.2,1.5-34.6,1.5-101.4s-0.3-75.2-1.5-101.4c-1.2-26.2-5.4-44.1-11.4-59.7C484,79,475.6,65.2,462,51.6c-13.7-13.7-27.4-22.1-43.6-28.4c-15.6-6.1-33.5-10.2-59.7-11.4c-26.2-1.2-34.6-1.5-101.4-1.5s-75.2,0.3-101.4,1.5C129.6,12.9,111.7,17.1,96.1,23.2z M356.6,56c24,1.1,37,5.1,45.7,8.5c11.5,4.5,19.7,9.8,28.3,18.4c8.6,8.6,13.9,16.8,18.4,28.3c3.4,8.7,7.4,21.7,8.5,45.7c1.2,25.9,1.4,33.7,1.4,99.4s-0.3,73.5-1.4,99.4c-1.1,24-5.1,37-8.5,45.7c-4.5,11.5-9.8,19.7-18.4,28.3c-8.6,8.6-16.8,13.9-28.3,18.4c-8.7,3.4-21.7,7.4-45.7,8.5c-25.9,1.2-33.7,1.4-99.4,1.4s-73.5-0.3-99.4-1.4c-24-1.1-37-5.1-45.7-8.5c-11.5-4.5-19.7-9.8-28.3-18.4c-8.6-8.6-13.9-16.8-18.4-28.3c-3.4-8.7-7.4-21.7-8.5-45.7c-1.2-25.9-1.4-33.7-1.4-99.4s0.3-73.5,1.4-99.4c1.1-24,5.1-37,8.5-45.7c4.5-11.5,9.8-19.7,18.4-28.3c8.6-8.6,16.8-13.9,28.3-18.4c8.7-3.4,21.7-7.4,45.7-8.5c25.9-1.2,33.7-1.4,99.4-1.4S330.7,54.8,356.6,56z'/>
+<path d='M130.9,256.3c0,69.8,56.6,126.3,126.3,126.3s126.3-56.6,126.3-126.3S327,130,257.2,130S130.9,186.5,130.9,256.3z M339.2,256.3c0,45.3-36.7,82-82,82s-82-36.7-82-82c0-45.3,36.7-82,82-82S339.2,211,339.2,256.3z'/>
+<circle cx='388.6' cy='125' r='29.5'/>
+</g></symbol>
+
+
+<symbol id="icon_linkedin " width="24" height="24" viewBox='0 0 24 24'>
+<path d='M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z' fill='grey' />
+</symbol>
+
+
+ 
+<symbol id="icon_news" width="24" height="24" viewBox='0 0 22 22' fill='#666'>
+<circle cx='3' cy='7' r='2.5'/>
+<circle cx='7' cy='5' r='4'/>
+<circle cx='14' cy='6' r='5'/>
+<circle cx='17' cy='10' r='3'/>
+<circle cx='7' cy='10' r='3'/>
+<circle cx='12' cy='10' r='5'/>
+<polygon points='4,19 10,10 19,10 4,19'/>
+</symbol>
+
+
+ 
+<symbol id="icon_product" width='20' height='20' stroke='#666' stroke-width='2' stroke-linecap='round' fill='none'>
+<circle cx='10' cy='10' r='9'/>
+<circle cx='10' cy='10' r='5'/>
+<circle cx='10' cy='10' r='1'/>
+</symbol>
+
+
+ 
+<symbol id="icon_search" width='17' height='17' fill='none' stroke='#666' stroke-linecap='round'>
+<circle cx='7' cy='7' r='5' stroke-width='2'/>
+<line x1='11' y1='11' x2='15' y2='15' stroke-width='3'/>
+</symbol>
+
+
+ 
+<symbol id="icon_solutions" width='20' height='20' stroke='#666' stroke-linecap='round' fill='white'>
+<circle cx='9' cy='5' r='4.5' stroke-width='1'/>
+<circle cx='9' cy='5' r='2.5' stroke-width='1'/>
+<line x1='9' y1='5' x2='9' y2='15' stroke-width='2.1'/>
+<line x1='11' y1='10' x2='11' y2='16' stroke-width='2.1'/>
+<line x1='13' y1='10.5' x2='13' y2='16' stroke-width='2.1'/>
+<line x1='15' y1='11' x2='15' y2='16' stroke-width='2.1'/>
+<line x1='5' y1='12' x2='11' y2='19' stroke-width='2.5'/>
+<polygon points='6,15 8,20 15,20 16,16' fill='#666' stroke-width='0'/>
+</symbol>
+
+
+
+<symbol id="icon_support " width='20' height='20' stroke='#666' stroke-width='2' stroke-linecap='round'><line x1='8' y1='1' x2='8' y2='15'/>
+<line x1='1' y1='8' x2='15' y2='8'/>
+<line x1='13' y1='3' x2='3' y2='13'/>
+<line x1='3' y1='3' x2='13' y2='13'/>
+<circle cx='8' cy='8' r='5' stroke-width='2.5' fill='#fff'/>
+<g stroke-width='1'><line x1='17' y1='14' x2='17' y2='20' />
+<line x1='14' y1='17' x2='20' y2='17' />
+<line x1='15' y1='15' x2='19' y2='19' />
+<line x1='15' y1='19' x2='19' y2='15' />
+<circle cx='17' cy='17' r='2' fill='#fff'/>
+</g></symbol>
+
+
+<symbol id="icon_twitter " viewBox='0 0 400 400'><path fill='grey' d='M350,400H50c-27.6,0-50-22.4-50-50V50C0,22.4,22.4,0,50,0h300c27.6,0,50,22.4,50,50v300C400,377.6,377.6,400,350,400z'/>
+<path fill='white' d='M153.6,301.6c94.3,0,145.9-78.2,145.9-145.9c0-2.2,0-4.4-0.1-6.6c10-7.2,18.7-16.3,25.6-26.6c-9.2,4.1-19.1,6.8-29.5,8.1c10.6-6.3,18.7-16.4,22.6-28.4c-9.9,5.9-20.9,10.1-32.6,12.4c-9.4-10-22.7-16.2-37.4-16.2c-28.3,0-51.3,23-51.3,51.3c0,4,0.5,7.9,1.3,11.7c-42.6-2.1-80.4-22.6-105.7-53.6c-4.4,7.6-6.9,16.4-6.9,25.8c0,17.8,9.1,33.5,22.8,42.7c-8.4-0.3-16.3-2.6-23.2-6.4c0,0.2,0,0.4,0,0.7c0,24.8,17.7,45.6,41.1,50.3c-4.3,1.2-8.8,1.8-13.5,1.8c-3.3,0-6.5-0.3-9.6-0.9c6.5,20.4,25.5,35.2,47.9,35.6c-17.6,13.8-39.7,22-63.7,22c-4.1,0-8.2-0.2-12.2-0.7C97.7,293.1,124.7,301.6,153.6,301.6'/>
+</symbol>
+
+
+
+ 
+<symbol id="icon_video" viewBox='0 -3 30 23'><rect width='28' height='20' fill='#666'/>
+<g fill='white'><rect x='2' y='2' width='24' height='14'/>
+<rect x='20' y='17' width='2' height='2'/>
+<rect x='24' y='17' width='2' height='2'/>
+</g><polyline points='10,-3 13,0 20,-6' stroke='#666' stroke-width='1' fill='none'/>
+</symbol>
+
+
+
+
+<symbol id="icon_youtube" viewBox='0 2 24 17' ><path d='M2.093,9.075c0.125,-1.941 1.629,-3.509 3.562,-3.716c2.005,-0.202 4.136,-0.311 6.345,-0.311c2.209,0 4.34,0.109 6.345,0.312c1.933,0.206 3.437,1.774 3.562,3.715c0.061,0.956 0.093,1.933 0.093,2.925c0,0.992 -0.032,1.969 -0.093,2.925c-0.125,1.941 -1.629,3.509 -3.562,3.716c-2.005,0.202 -4.136,0.311 -6.345,0.311c-2.209,0 -4.34,-0.109 -6.345,-0.312c-1.933,-0.206 -3.437,-1.774 -3.562,-3.715c-0.061,-0.956 -0.093,-1.933 -0.093,-2.925c0,-0.992 0.032,-1.969 0.093,-2.925Z' fill='grey'/>
+<path d='M15.055,12l-4.909,2.995l0,-5.99l4.909,2.995Z' fill='white'/>
+</symbol>
+
+
+
+
+<symbol id="flag_cz"><rect width='15' height='6' fill='white'/>
+<rect y='6' width='15' height='6' fill='red'/>
+<polygon points='0,0 00,12 6,6' fill='blue' />
+</symbol>
+
+
+
+
+<symbol id="flag_de"><rect width='15' height='4' fill='black'/>
+<rect y='4' width='15' height='4' fill='red'/>
+<rect y='8' width='15' height='4' fill='yellow'/>
+</symbol>
+
+
+
+<symbol id="flag_dk"><rect width='15' height='12' fill='red'/>
+<rect y='5' width='15' height='1.5' fill='white'/>
+<rect x='5' width='1.5' height='12' fill='white'/>
+</symbol>
+
+
+
+<symbol id="flag_en"><rect width='15' height='12' fill='blue'/>
+<line x2='15' y2='12' stroke-width='2' stroke='white' />
+<line y1='12' x2='15' stroke-width='2' stroke='white' />
+<line  x2='15' y2='12' stroke-width='1' stroke='red' />
+<line y1='12' x2='15' stroke-width='1' stroke='red' />
+<line y1='6' x2='15' y2='6' stroke-width='3' stroke='white' />
+<line x1='8' x2='8' y2='12' stroke-width='3' stroke='white' />
+<line y1='6' x2='15' y2='6' stroke-width='2' stroke='red' />
+<line x1='8' x2='8' y2='12' stroke-width='2' stroke='red' />
+</symbol>
+
+
+<symbol id="flag_es"><rect width='15' height='3' fill='red'/>
+<rect y='3' width='15' height='6' fill='yellow'/>
+<rect y='9' width='15' height='3' fill='red'/>
+</symbol>
+
+
+
+<symbol id="flag_fr"><rect width='5' height='12' fill='blue'/>
+<rect x='5' width='5' height='12' fill='white'/>
+<rect x='10' width='5' height='12' fill='red'/>
+</symbol>
+
+
+
+<symbol id="flag_it"><rect width='5' height='12' fill='green'/>
+<rect x='5' width='5' height='12' fill='white'/>
+<rect x='10' width='5' height='12' fill='red'/>
+</symbol>
+
+
+
+<symbol id="flag_ru"><rect width='15' height='4' fill='white'/>
+<rect y='4' width='15' height='4' fill='blue'/>
+<rect y='8' width='15' height='4' fill='red'/>
+</symbol>
+
+
+<symbol id="flag_cn"><defs><polygon id='star' points='4 0 5 4 8 4 6 6 6.5 9 4 7 1 9 2 6 0 4 3 4' fill='yellow'/>
+</defs><rect width='15' height='12' fill='red'/>
+<use href='#star' transform='scale(0.7 0.7)'/>
+<use href='#star' x='15' transform='scale(0.3 0.3)'/>
+<use href='#star' x='20' y='10' transform='scale(0.3 0.3)'/>
+<use href='#star' x='15' y='20' transform='scale(0.3 0.3)'/>
+<use href='#star' x='5' y='24' transform='scale(0.3 0.3)'/>
+</symbol>
+
+
+<symbol viewBox='-17 -17 34 34' id="globe" stroke='#666' stroke-width='2' stroke-linecap='round' fill='none'><circle r='16'/>
+<ellipse rx='9' ry='16'/>
+<path d="M-12,-11 a16,9 0 0 0 24,0" />
+<path d="M-12,11 a16,9 0 0 1 24,0" />
+<line x1='-17' x2='17'/>
+<line y1='-17' y2='17'/>
+</symbol>
+
+
+</svg>
